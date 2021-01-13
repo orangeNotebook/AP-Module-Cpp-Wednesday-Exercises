@@ -30,3 +30,17 @@ Updating file...
 Add another (y/n)? N
 Goodbye
 ```
+## Exercise 3: File Reader
+A simple C++ program that prompts the user to enter a filename. If the file exists, the program should display and add a count to each line and display the total number of lines at the end; an appropriate indication should be given if the file specified does not exist.
+
+Example output:
+```
+Please enter a valid filename: list.cvs
+Sorry, ‘list.cvs’ does not exist.
+
+Please enter a valid filename: list.csv
+1: Jaelynn Stuart
+2: John Smith
+
+Total number of lines read: 2
+```
