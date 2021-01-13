@@ -23,11 +23,11 @@ int main(){
 
   //checks if stat failed (should only happen if incorrect file name is provided)
   if(stat(userInput.c_str(), &st) != 0) {
-     return 0; //if failed returns 0 and exits out of program
-  }
-
+     cout << userInput << " does not exist";
+  }else{
   //outputs the size and last modified tiem of the file provided
-  cout << userInput << ", " << st.st_size << " bytes, last modified: " << ctime(&st.st_mtime);;
-
+  cout << userInput << ", " << st.st_size << " bytes, last modified: " << ctime(&st.st_mtime);
+  }
+  
   return 0;
 }
