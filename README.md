@@ -46,7 +46,7 @@ Total number of lines read: 2
 ```
 
 ## Data File Parser
-A simple C++ program that reads the following data from a file:
+A C++ program that reads the following data from a file:
 ```
 Noak,Jaylinn,21500
 Apollinaire,Venkata,29250
