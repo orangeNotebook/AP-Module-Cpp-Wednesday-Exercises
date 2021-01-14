@@ -99,7 +99,7 @@ int main(){
   while(file >> row){
     //checks if name or telephone matches uer input, if yes displays it, sets found to true and breaks out of loop
     if(row[0] == userInput || row[1] == userInput){
-      cout << row[0] << ", T: " << row[1];
+      cout << "Contact details:\n" << row[0] << ", T: " << row[1];
       found = true;
       break;
     }
