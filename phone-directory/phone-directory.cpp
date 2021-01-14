@@ -31,8 +31,6 @@ class CSVRow{
       return m_data.size() - 1;
     }
 
-    
-
     //a method to get the next field in the column
     void readNextRow(istream& str){
       //defining var (this is for the position of ',' characters)
