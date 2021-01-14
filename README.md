@@ -95,6 +95,7 @@ Contact details:
 Ada College, T: 0203 105 0125
 
 --OR—
+
 Please enter a name or number to search: 0203 105 0120
 Searching 10 records ...
 
