@@ -74,3 +74,29 @@ L.       Oliver     £43300
 L.       Jones      £45600
 A.       Smith      £20500
 ```
+
+## Phone Directory
+A C++ program that uses an external data stream to permanently hold phone contacts. The program should prompt the user for either a name or phone number and provide any matched record or records. 
+
+Example output:
+```
+Please enter a name or number to search: 0203 105 0125
+Searching 10 records ...
+
+Contact details:
+Ada College, T: 0203 105 0125
+
+--OR—
+
+Please enter a name or number to search: Ada College
+Searching 10 records ...
+
+Contact details:
+Ada College, T: 0203 105 0125
+
+--OR—
+Please enter a name or number to search: 0203 105 0120
+Searching 10 records ...
+
+Sorry, no contact details found
+```
