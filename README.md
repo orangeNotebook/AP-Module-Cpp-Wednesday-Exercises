@@ -48,15 +48,15 @@ Total number of lines read: 2
 ## Data File Parser
 A simple C++ program that reads the following data from a file:
 ```
-Noak, Jaylinn, 21500
-Apollinaire, Venkata, 29250
-Faith, Mara, 30000
-Yasamin, Shukriyya, 44500
-Zahir, Marcel, 31200
-Maia, Ela, 45600
-Liam, Oliver, 43300
-Luka, Jones, 45600
-Alexander, Smith, 20500
+Noak,Jaylinn,21500
+Apollinaire,Venkata,29250
+Faith,Mara,30000
+Yasamin,Shukriyya,44500
+Zahir,Marcel,31200
+Maia,Ela,45600
+Liam,Oliver,43300
+Luka,Jones,45600
+Alexander,Smith,20500
 ```
 Processes the records and display them as a formatted, aligned and evenly spaced table as shown
 
