@@ -58,7 +58,7 @@ Liam,Oliver,43300
 Luka,Jones,45600
 Alexander,Smith,20500
 ```
-Processes the records and display them as a formatted, aligned and evenly spaced table as shown
+Processes the records and display them as a formatted, aligned and evenly spaced table as shown.
 
 Example output:
 ```
